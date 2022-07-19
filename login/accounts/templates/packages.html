@@ -1,0 +1,14 @@
+{% extends 'index.html' %}
+{% block content%}
+
+<h1 style = "text-align:center;">my package</h1>
+    <h2 style = "text-align:center;">
+        {%for package in package_list%}
+        
+    
+        {{package}}
+        {%endfor%}
+    
+  
+    </h2>
+{% endblock %}

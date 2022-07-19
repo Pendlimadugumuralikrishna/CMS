@@ -1,0 +1,13 @@
+{% extends 'index.html'%}
+{% block content%}
+    <h1 style = "text-align:center;">Welcome,{{user.username}}</h1>
+    <p style = "color:blue;"><br>
+        {%for package in package_list%}
+            {{package}}
+        {%endfor%}
+    </p><br>
+    
+   
+    
+    
+{%endblock%}
